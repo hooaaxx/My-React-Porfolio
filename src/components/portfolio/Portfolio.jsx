@@ -3,47 +3,26 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Lend-An-Eye',
+    title: 'E-blotter System',
     github: 'https://github.com/thantienduc/Lend-an-eye'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'PHMS',
+    title: 'LARAVEL livewire E-commerce',
     github: 'https://github.com/thantienduc/PHMS-2020'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Cominneed',
+    title: 'My react portfolio',
     github: 'https://github.com/thantienduc/Comineed'
   },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'JADE',
-    github: 'https://github.com/thantienduc/JADE'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'test',
-    github: 'https://github.com'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'test1',
-    github: 'https://github.com'
-  }
 ]
 
 const portfolio = () => {
